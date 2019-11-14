@@ -8,7 +8,7 @@ s.summary = "DateConverter helps formatting dates"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -29,7 +29,6 @@ s.framework = "UIKit"
 s.source_files = "DateConverter/**/*.{swift}"
 
 # 9
-s.resources = "DateConverter/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
