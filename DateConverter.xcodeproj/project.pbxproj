@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		91C91959237D89F000B6EAFC /* DateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C91957237D89F000B6EAFC /* DateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C91960237D8A1C00B6EAFC /* DateConverter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9195F237D8A1C00B6EAFC /* DateConverter+Extensions.swift */; };
+		91C91960237D8A1C00B6EAFC /* DateConverterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9195F237D8A1C00B6EAFC /* DateConverterExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91C91954237D89F000B6EAFC /* DateConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C91957237D89F000B6EAFC /* DateConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateConverter.h; sourceTree = "<group>"; };
 		91C91958237D89F000B6EAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91C9195F237D8A1C00B6EAFC /* DateConverter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateConverter+Extensions.swift"; sourceTree = "<group>"; };
+		91C9195F237D8A1C00B6EAFC /* DateConverterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverterExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				91C91957237D89F000B6EAFC /* DateConverter.h */,
 				91C91958237D89F000B6EAFC /* Info.plist */,
-				91C9195F237D8A1C00B6EAFC /* DateConverter+Extensions.swift */,
+				91C9195F237D8A1C00B6EAFC /* DateConverterExtensions.swift */,
 			);
 			path = DateConverter;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91C91960237D8A1C00B6EAFC /* DateConverter+Extensions.swift in Sources */,
+				91C91960237D8A1C00B6EAFC /* DateConverterExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
